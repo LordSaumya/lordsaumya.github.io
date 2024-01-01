@@ -21,6 +21,12 @@
             document.body.classList.toggle("latex-dark");
             localStorage.setItem("darkMode", document.body.classList.contains("latex-dark"));
         }
+
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "d") {
+                toggleDarkMode(document.getElementById("darkModeBtn"));
+            }
+        });
     </script>
 </head>
 
