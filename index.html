@@ -28,6 +28,63 @@
             }
         });
     </script>
+    <style>
+        .expBox {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: baseline;
+        }
+        .tagBox {
+            display: flex; 
+            justify-content: left; 
+            align-items: baseline;
+        }
+        .tag {
+            display: inline-block;
+            padding: 0.25em 0.4em;
+            margin-left: 0.3em;
+            font-size: 75%;
+            font-weight: 700;
+            line-height: 1.5;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 0.25rem;
+            margin-bottom: 0.5em;
+        }
+        .htmlcss {
+            color: #fff;
+            background-color: #e34c26;;
+        }
+        .js {
+            color: #fff;
+            background-color: #8B8000;
+        }
+        .php {
+            color: #fff;
+            background-color: #4F5D95;
+        }
+        .sql {
+            color: #fff;
+            background-color: #00758F;
+        }
+        .java {
+            color: #fff;
+            background-color: #5382A1;
+        }
+        .python {
+            color: #fff;
+            background-color: #BB8316;
+        }
+        .rust {
+            color: #fff;
+            background-color: #9A6140;
+        }
+        .r {
+            color: #fff;
+            background-color: purple;
+        }
+    </style>
 </head>
 
 <body onload="initialDarkModeToggle()">
@@ -149,35 +206,46 @@
 
     <p>I am always open to new experiences. So far, I am broadly interested in and have worked in the following areas
         (in reverse chronological order):</p>
-    </p>
 
     <h3 id="swdev">Software Development</h3>
 
-    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <div class="expBox">
         <h4>Web Developer (intern), Sham Machinery Stores<br /><span style="font-size:0.8em;">Buldhana, India</span>
         </h4>
         <span style="white-space:nowrap;">Feb 2021 - Nov 2021</span>
     </div>
     <ul style="margin-top: 0;">
-        <li>Developed and maintained a dynamic inventory management platform (PHP, HTML, CSS, JS, and MySQL), helping
+        <li>Developed and maintained a dynamic inventory management platform, helping
             transition from a paper-based inventory system, and reducing stock-out rates by 25 per cent.</li>
         <li>Presented and evaluated multiple designs as well as the final website in consultation with the client and 20
             users.</li>
     </ul>
+    <div class = "tagBox">
+        <a href = "#htmlcss"><div class = "tag htmlcss">HTML/CSS</div></a>
+        <a href = "#js"><div class = "tag js">JavaScript</div></a>
+        <a href = "#php"><div class = "tag php">PHP</div></a>
+        <a href = "#sql"><div class = "tag sql">MySQL</div></a>
+    </div>
 
-    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <div class="expBox">
         <h4>Web Developer (intern), EssTeam Design Services LLP<br /><span style="font-size:0.8em;">Surat, India</span>
         </h4>
         <span style="white-space:nowrap;">Oct 2019 - Jan 2020</span>
     </div>
     <ul style="margin-top: 0;">
-        <li>Developed a web app (PHP, HTML, CSS, JS, and MySQL) for an architect promoting green construction, allowing
+        <li>Developed a web app for an architect promoting green construction, allowing
             other architects to co-ordinate and donate excess construction materials.</li>
         <li>Presented and evaluated multiple designs as well as the final website in consultation with the client and 15
             end-users.</li>
     </ul>
+    <div class = "tagBox">
+        <a href = "#htmlcss"><div class = "tag htmlcss">HTML/CSS</div></a>
+        <a href = "#js"><div class = "tag js">JavaScript</div></a>
+        <a href = "#php"><div class = "tag php">PHP</div></a>
+        <a href = "#sql"><div class = "tag sql">MySQL</div></a>
+    </div>
 
-    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <div class="expBox">
         <h4>Developer (intern), NJ Technologies<br /><span style="font-size:0.8em;">Surat, India</span></h4>
         <span style="white-space:nowrap;">Feb 2019 - Mar 2019</span>
     </div>
@@ -186,13 +254,17 @@
             efficiency.</li>
         <li>Trained for and refactored financial software solutions with a team of 5 using Java.</li>
     </ul>
+    <div class = "tagBox">
+        <a href = "#java"><div class = "tag java">Java</div></a>
+        <a href = "#sql"><div class = "tag sql">MySQL</div></a>
+    </div>
 
     <hr />
     <small><a href="#saumyash" style="float: right;">Back to Top</a></small>
 
     <h3 id="ml">Machine Learning</h3>
 
-    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <div class="expBox">
         <h4>Research Assistant, NUS School of Computing<br /><span style="font-size:0.8em;">Singapore</span></h4>
         <span style="white-space:nowrap;">Dec 2023 - Present</span>
     </div>
@@ -200,13 +272,17 @@
         <li>Conducted research on physics-informed machine learning algorithms for symbolic regression like AI Feynman
             under the supervision of Dr Stéphane Bressan.</li>
     </ul>
+    <div class = "tagBox">
+        <a href = "#python"><div class = "tag python">Python</div></a>
+        <a href = "#rust"><div class = "tag rust">Rust</div></a>
+    </div>
 
     <hr />
     <small><a href="#saumyash" style="float: right;">Back to Top</a></small>
 
     <h3 id="teaching">Teaching & Leadership</h3>
 
-    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <div class="expBox">
         <h4>Quantitative Reasoning & Computing Student Assistant, NUS College<br /><span
                 style="font-size:0.8em;">Singapore</span></h4>
         <span style="white-space:nowrap;">Aug 2023 - Present</span>
@@ -217,8 +293,11 @@
         <li>Conducted weekly sessions for GEA1000N students, helping them to understand quantitative reasoning concepts
             and clarify doubts in assignments.</li>
     </ul>
+    <div class = "tagBox">
+        <a href = "#r"><div class = "tag r">R</div></a>
+    </div>
 
-    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <div class="expBox">
         <h4>General Secretary, NUS Astronomical Society<br /><span style="font-size:0.8em;">Singapore</span>
         </h4>
         <span style="white-space:nowrap;">Aug 2023 - Present</span>
@@ -236,9 +315,40 @@
 
     <h2 id="projects">Projects</h2>
 
+    <p>I am a self-motivated practical learner. So far, I have worked on the following projects
+        (in reverse chronological order within each section):</p>
+
     <h3 id="academicProjects">Academic</h3>
 
-    <h4>ACADEMIC PROJECTS</h4>
+    <div>
+        <h4 style = "margin-bottom: 0;">Impact Experience Project</h4>
+        <p style = "text-align: left;">A two-year $20k team project to improve waste management standards in rural Cambodia in collaboration with the <a href = "https://www.facebook.com/YoungEcoAmbassador/">Young Eco Ambassador</a> organisation, consisting of managing the logistics, infrastructure, and execution of a <i>Bring Your Own Container</i> programme and a corresponding awareness campaign to reduce plastic waste. Done as part of the NUS College <a href = "https://nuscollege.nus.edu.sg/impact-experience/">Impact Experience</a> programme (NEP3001).</p>
+    </div>
+
+    <div>
+        <h4 style = "margin-bottom: 0;">rusTuring Machine</h4>
+        <span style="margin-top: 0;"><a href = "https://github.com/LordSaumya/rusTuring-Machine">Github Link</a></span>
+        <p style = "text-align: left;">A Turing machine simulator programmed in Rust for NST2056 (Computing Machines, Models, and the Mind)</p>
+        <div class = "tagBox" style = "margin-top: 0.5em;">
+            <a href = "#rust"><div class = "tag rust">Rust</div></a>
+        </div>
+    </div>
+    <div>
+        <h4 style = "margin-bottom: 0;">HouR - Employee Management Platform</h4>
+        <span style="margin-top: 0;"><a href = "https://github.com/AY2324S1-CS2103T-W12-1/tp">Github Link</a></span>
+        <p style = "text-align: left;">A 12 kLoC GUI-based interactive desktop application for employee records management optimised for CLI usage. Has commands to add, edit, and delete employee records, manage their leaves and overtime hours, and track their metrics. Created for CS2103T (Software Engineering).</p>
+        <div class = "tagBox" style = "margin-top: 0.5em;">
+            <a href = "#java"><div class = "tag java">Java</div></a>
+        </div>
+    </div>
+    <div>
+        <h4 style = "margin-bottom: 0;">Kronos Task Manager</h4>
+        <span style="margin-top: 0;"><a href = "https://github.com/LordSaumya/ip">Github Link</a></span>
+        <p style = "text-align: left;">A GUI-based interactive task manager with a chat interface and local storage capabilities, created for CS2103T (Software Engineering).</p>
+        <div class = "tagBox" style = "margin-top: 0.5em;">
+            <a href = "#java"><div class = "tag java">Java</div></a>
+        </div>
+    </div>
 
     <p></p>
 
@@ -261,7 +371,7 @@
     <h4>Programming</h4>
 
     <ul>
-        <li><strong>Java</strong>: The language of choice for most of my NUS coursework, including DSA, programming
+        <li id = "java"><strong>Java</strong>: The language of choice for most of my NUS coursework, including DSA, programming
             methodology (OOP), and SWE. I've slowly come to appreciate its type safety, even if it's a little verbose at
             times. A little annoying to use for functional programming with all of its monads and functors, but I've
             managed to get by.</li>
@@ -271,7 +381,7 @@
             <li><strong>JavaFX</strong>: Used it in the SWE course to build UIs for two projects. Felt extremely
                 tedious. I will probably stick to other languages for my UI needs.</li>
         </ul>
-        <li><strong>Python</strong>: My go-to language for most of my machine learning personal projects. I'm quite
+        <li id = "python"><strong>Python</strong>: My go-to language for most of my machine learning personal projects. I'm quite
             comfortable with its data science stack, although I probably need to develop better testing practices.</li>
         <ul>
             <li><strong>NumPy, Pandas, Matplotlib</strong>: Pretty familiar with these libraries. I've used them for
@@ -288,7 +398,7 @@
             <li><strong>SciKit-Learn</strong>: I used it in my early days of learning ML. I don't really use it anymore.
             </li>
         </ul>
-        <li><strong>JavaScript</strong>: I'm very comfortable with JavaScript, having used it for years in most of my
+        <li id = "js"><strong>JavaScript</strong>: I'm very comfortable with JavaScript, having used it for years in most of my
             web dev projects. I found it quite painful to debug due to its weak dynamic typing, but TypeScript has made
             it much more bearable and straightforward, even if at the cost of a little more verbosity.</li>
         <ul>
@@ -298,7 +408,7 @@
                 more JS and React, it has become largely superfluous. I only use it now once every few months to
                 maintain some of my older projects.</li>
         </ul>
-        <li><strong>Rust</strong>: Extremely fascinating language in how it combines high performance with memory
+        <li id = "rust"><strong>Rust</strong>: Extremely fascinating language in how it combines high performance with memory
             safety. I'm familiar with the basics, but I still often run afoul of the borrow checker when using generics
             or traits. It has also given me an opportunity to learn to implement from scratch some of the features I
             take for granted in other languages.</li>
@@ -306,22 +416,27 @@
             <li><strong>Polars</strong>: A powerful Rust equivalent of Pandas. I've used it for data management in an ML
                 project and found it a little limited in its functionality compared to Pandas, but it's still promising.
             </li>
+            <li><strong>Rocket</strong>: A web framework for Rust. I've used it in a few web dev projects, and I've found
+                it quite intuitive.</li>
+            <li><strong>Reqwest</strong>: A HTTP client for Rust. Used it for a Hackathon once. Found it straightforward.</li>
         </ul>
-        <li><strong>SQL</strong>: Familiar with the basics of SQL and similar RDBMS's, including PostgreSQL and MySQL.
+        <li id = "sql"><strong>SQL</strong>: Familiar with the basics of SQL and similar RDBMS's, including PostgreSQL and MySQL.
             Used it in a few web dev projects to manage databases.</li>
-        <li><strong>Ruby</strong>: I'm familiar with the basics of Ruby, but I haven't used it much by itself, mostly
+        <li id = "ruby"><strong>Ruby</strong>: I'm familiar with the basics of Ruby, but I haven't used it much by itself, mostly
             using it in Rails projects.</li>
         <ul>
             <li><strong>Ruby on Rails</strong>: Not my first choice for backend, but I've used it in a few web dev
                 projects. I appreciate its simplicity and convention over configuration approach, but the MVC pattern
                 seems overly complicated for smaller projects.</li>
         </ul>
-        <li><strong>PHP</strong>: I'm familiar with the basics of request handling using PHP, but it always seemed
+        <li id = "htmlcss"><strong>HTML/CSS</strong>: I'm familiar with the basics of HTML and CSS, but often find myself looking up
+            the docs for most features. I'd rather use JS libraries like React now.</li>
+        <li id = "php"><strong>PHP</strong>: I'm familiar with the basics of request handling using PHP, but it always seemed
             overly verbose and complicated to me. I've used it in a few web dev projects before I found out about
             backend managment in JS and Python, but I've never really enjoyed using it.</li>
         <li><strong>MATLAB</strong>: I've used it for mathematical computation in courses like linear algebra.</li>
-        <li><strong>C</strong>: I've used it for courses like computer organisation.</li>
-        <li><strong>R</strong>: I've only used it for my quantitative reasoning course.</li>
+        <li id = "c"><strong>C</strong>: I've used it for courses like computer organisation.</li>
+        <li id = "r"><strong>R</strong>: I've only used it for my quantitative reasoning course.</li>
     </ul>
     <h4>Others</h4>
     <ul>
@@ -330,7 +445,7 @@
         <li><strong>Microsoft Office Suite</strong>: I use it for most of my coursework. Also, I spend a lot of time
             adding pointless animations to PPTs to compensate for my lack of presentation skills.
         <li><strong><span class="latex">L<span>a</span>T<span>e</span>X</span></strong>: I use it for taking notes and
-            writing reports. I'm kinda comfortable with it, though I need to look up the docs quite often.</li>
+            writing reports. I'm kinda comfortable with it, though I need to look up the docs often.</li>
         <li><strong>Postman</strong>: I use it to test my API endpoints, although I haven't used it in a while.</li>
         <li><strong>Radiant</strong>: Learnt it for my quantitative reasoning course. When my knowledge of Excel
             formulae fails
