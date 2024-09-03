@@ -122,7 +122,7 @@
         <pre>My Portfolio</pre>
     </h1>
 
-    <p class="author">Saumya Shah<br>July 2024</p>
+    <p class="author">Saumya Shah<br><span class = "month"></span> 2024</p>
     <div class="abstract">
         <h2 id="abstract">Abstract</h2>
     </div>
@@ -131,7 +131,7 @@
         student at the <a href="https://nus.edu.sg/">National University of Singapore</a>,
         specialising in machine learning. I am pursuing a minor in astronomy. I am currently working on a School of
         Computing research project on physics-informed machine learning algorithms for symbolic regression under the
-        supervision of Dr Stéphane Bressan. I am also currently interning as a computer vision engineer at the NUS Smart
+        supervision of Dr Stéphane Bressan. I am also currently serving as a teaching assistant for CS2109s (Introduction to AI & 
         Machine Learning).
     </p>
     <p>I am interested in further exploring the intersection of machine learning with physics and astronomy. This
@@ -845,6 +845,7 @@
     <ul>
         <!--y3s1-->
         <li>PC2411 - Practical Astronomy</li>
+    </ul>
 
     <hr />
     <small><a href="#saumyash" style="float: right;">Back to Top</a></small>
@@ -864,8 +865,15 @@
     <!-- End of Statcounter Code -->
 </body>
 <footer>
-    Last updated July 2024. Made with <a href="https://latex.now.sh"><span
+    Last updated <span class = "month"></span> 2024. Made with <a href="https://latex.now.sh"><span
             class="latex">L<span>a</span>T<span>e</span>X</span>.css</a>
+    <script>
+        var month = "September";
+        var monthText = document.getElementsByClassName("month");
+        for (var i = 0; i < monthText.length; i++) {
+            monthText[i].innerHTML = month;
+        }
+    </script>
 </footer>
 
 </html>
