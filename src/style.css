@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --color-q-bg: #030408; /* Deep dark navy / almost black */
+  --color-q-wire: #2a2d3d; /* Slate grey */
+  --color-q-accent: #00e5ff; /* Vivid bright teal */
+}
