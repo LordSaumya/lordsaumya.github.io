@@ -1,0 +1,46 @@
+{
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "@tailwindcss/vite": "^4.3.1",
+    "@types/three": "^0.184.1",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16"
+  },
+  "name": "lordsaumya.github.io",
+  "description": "Personal website",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "detect-libc": "^2.1.2",
+    "fdir": "^6.5.0",
+    "lightningcss": "^1.32.0",
+    "lightningcss-win32-x64-msvc": "^1.32.0",
+    "nanoid": "^3.3.12",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.4",
+    "rolldown": "^1.0.3",
+    "source-map-js": "^1.2.1",
+    "three": "^0.184.0",
+    "tinyglobby": "^0.2.17"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordSaumya/lordsaumya.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordSaumya/lordsaumya.github.io/issues"
+  },
+  "homepage": "https://github.com/LordSaumya/lordsaumya.github.io#readme"
+}
