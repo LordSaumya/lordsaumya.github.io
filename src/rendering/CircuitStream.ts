@@ -14,7 +14,7 @@ export class CircuitStream {
     public static triggeredGate: GateEvent | null = null;
     
     private static timeSinceLastGate: number = 0;
-    private static gateInterval: number = 750;
+    private static gateInterval: number = 1000;
     private static gateIdCounter: number = 0;
 
     public static mount(canvas: HTMLCanvasElement) {
