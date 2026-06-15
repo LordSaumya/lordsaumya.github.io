@@ -1,4 +1,3 @@
-import { Matrix } from "./Matrix";
 import { QuantumState } from "./QuantumState";
 import { Complex } from "./Complex";
 
